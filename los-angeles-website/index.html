@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Los Angeles - A sleek, modern business card website showcasing the beauty of LA.">
+    <meta name="keywords" content="Los Angeles, LA, business card, modern design, responsive">
+    <meta name="author" content="Your Name">
+    <title>Los Angeles | Business Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <h1 class="logo">LA Vibes</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h2>Discover Los Angeles</h2>
+            <p>A city of dreams, culture, and endless possibilities.</p>
+        </div>
+    </header>
+
+    <section id="gallery" class="gallery">
+        <div class="gallery-item" style="background-image: url('los-angeles-website\images\la-panorama.jpg.jpg');">
+            <h3>LA Panorama</h3>
+        </div>
+        <div class="gallery-item" style="background-image: url('los-angeles-website\images\marina-del-rey.jpg.jpg');">
+            <h3>Marina del Rey</h3>
+        </div>
+        <div class="gallery-item" style="background-image: url('los-angeles-website\images\walt-disney-concert-hall.jpg.jpg');">
+            <h3>Santa Monica Pier</h3>
+        </div>
+        <div class="gallery-item" style="background-image: url('images/walt-disney-concert-hall.jpg');">
+            <h3>Walt Disney Concert Hall</h3>
+        </div>
+    </section>
+
+    <section id="map" class="map-section">
+        <h2>Explore LA</h2>
+        <div id="map" role="region" aria-label="Interactive Map of Los Angeles"></div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <p>Contact us: info@lavibes.com | &copy; 2025 LA Vibes</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
